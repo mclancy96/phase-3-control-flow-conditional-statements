@@ -1,5 +1,3 @@
-require 'pry'
-
 def admin_login(username, password)
   (username.downcase == 'admin' && password == '12345') ? "Access granted" : "Access denied"
 end
